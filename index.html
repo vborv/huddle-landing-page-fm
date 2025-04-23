@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <link rel="stylesheet"  href="css/styles.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container header_container">
+      <img src="./images/logo.svg" alt="Huddle Logo" class="header_logo">
+      <a href="#" class="btn btn--outline">Try It Free</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero_container">
+        <div class="hero_text">
+          <h1>Build The Community Your Fans Will Love</h1>
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+          <a href="#" class="btn btn--primary btn--large">Get Started For Free</a>
+        </div>
+        <div class="hero_image">
+          <img src="./images/screen-mockups.svg" alt="Screen Mockups showing Huddle interface">
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats_container">
+        <div class="stat">
+          <img src="./images/icon-communities.svg" alt="" aria-hidden="true">
+          <p class="stat_number">1.4k+</p>
+          <p class="stat_label">Communities Formed</p>
+        </div>
+        <div class="stat">
+          <img src="./images/icon-messages.svg" alt="" aria-hidden="true">
+          <p class="stat_number">2.7m+</p>
+          <p class="stat_label">Messages Sent</p>
+        </div>
+      </div>  
+    </section>
+
+    <!-- SECCIONES CON CURVAS -->
+
+    <section class="feature feature--grow">
+      <!--Curva superior-->
+      <div class="curve curve--top-grow">
+        <img src="./images/bg-section-top-desktop-1.svg" alt="" class="curve-desktop">
+        <img src="./images/bg-section-top-mobile-1.svg" alt="" class="curve-mobile">
+      </div>
+      <div class="container feature_container feature_container--reversed">
+        <div class="feature_text">
+          <h2>Grow Together</h2>
+          <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        <div class="feature_image">
+          <img src="./images/illustration-grow-together.svg" alt="Illustration showing people collaborating">
+        </div>
+      </div>
+      <!--Curva inferior-->
+      <div class="curve curve--bottom-grow">
+        <img src="./images/bg-section-bottom-desktop-1.svg" alt="" class="curve-desktop">
+        <img src="./images/bg-section-bottom-mobile-1.svg" alt="" class="curve-mobile">
+      </div>
+    </section>
+
+    <section class="feature feature--conversations">
+      <!-- Sin curva superior aquí, fondo normal -->
+      <div class="container feature_container">
+        <div class="feature_text">
+          <h2>Flowing Conversations</h2>
+          <p>
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+            just-in-time loading for a more natural flow.
+          </p>
+        </div>
+        <div class="feature_image">
+          <img src="./images/illustration-flowing-conversation.svg" alt="Illustration showing people in a discussion"> 
+        </div>
+      </div>
+       <!-- Sin curva inferior aquí -->
+    </section>
+
+    <section class="feature feature--users">
+      <!-- Aquí va la curva superior -->
+       <div class="curve curve--top-users">
+          <img src="./images/bg-section-top-desktop-2.svg" alt="" class="curve-desktop"> 
+          <img src="./images/bg-section-top-mobile-2.svg" alt="" class="curve-mobile">
+       </div>
+      <div class="container feature_container feature_container--reversed">
+        <div class="feature_text">
+          <h2>Your Users</h2>
+          <p>
+            It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+            once signed in to your app, your users can start chatting immediately.
+          </p>
+        </div>
+        <div class="feature_image">
+          <img src="./images/illustration-your-users.svg" alt="Illustration showing users interacting with screens">
+        </div>
+      </div>
+      <!-- Aquí va la curva inferior -->
+      <div class="curve curve--bottom-users">
+          <img src="./images/bg-section-bottom-desktop-2.svg" alt="" class="curve-desktop"> 
+          <img src="./images/bg-section-bottom-mobile-2.svg" alt="" class="curve-mobile">
+      </div>
+    </section>
+
+<!-- ====================================================== -->
+
+<section class="cta">
+  <div class="container cta_container">
+    <h2>Ready To Build Your Community?</h2>
+    <a href="#" class="btn btn--primary btn--large">Get Started For Free</a>
+  </div>
+</section>
+  </main>
+
+  <footer class="footer">
+    <div class="curve curve--top-footer">
+      <img src="./images/bg-footer-top-desktop.svg" alt="" class="curve-desktop">
+      <img src="./images/bg-footer-top-mobile.svg" alt="" class="curve-mobile">
+    </div>
+    <div class="container footer_container">
+      <div class="footer_contact">
+        <img src="./images/logo-white.svg" alt="Huddle Logo" class="footer_logo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+        <p><img src="./images/icon-phone.svg" alt="" class="footer_icon"> Phone: +1-543-123-4567</p>
+        <p><img src="./images/icon-email.svg" alt="" class="footer_icon"> Email: example@huddle.com</p>
+        <ul class="footer_social">
+          <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li></li>
+          <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer_newsletter">
+        <h3>Newsletter</h3>
+        <p>To receive tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address.</p>
+        <form action="#" class="newsletter-form">
+          <input type="email"  required>
+          <button type="submit" class="btn btn--primary btn--small">Subscribe</button>
+        </form>
+        <p class="newsletter-form_error-message" style="display: none; color: var(--clr-primary-light-red); font-size: 0.8rem; margin-top: 0.5rem;">Check your email please</p> <!-- Mensaje de error oculto-->
+      </div>
+    </div>
+    <p class="attribution" style="text-align: center; font-size: 11px; padding: 1rem; background-color: var(--clr-neutral-vd-cyan); color: var(--clr-neutral-pale-blue);">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" style="color: var(--clr-primary-pink);">Frontend Mentor</a>.
+      Coded by <a href="#" style="color: var(--clr-primary-pink);">vborv</a>.
+  </p>
+  </footer>
+</body>
+</html>
